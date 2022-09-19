@@ -1,3 +1,6 @@
+//Se busca ser recursivo con las funciones y
+//evitar enviar indefinidamente funciones como parametro que llamen otras funciones como parametro
+
 function iamAsynchronous(name, myCallback) {
     console.log('hi i am asynchronous');
     setTimeout(function() {
