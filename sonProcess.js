@@ -23,6 +23,7 @@ proces.stdout.on('data', function(dato) {
     console.log(proces.killed);
     console.log(dato.toString());
 });
+//Podemos incluso detectar cuando comienza y termina un proceso
 proces.on('exit', function() {
     console.log('el proceso termino');
     console.log(proces.killed);
